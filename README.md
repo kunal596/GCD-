@@ -1,6 +1,3 @@
-# GCD-
-GREATEST COMMAN DIVISOR
-
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+void palindromestring(string n,string k){
+    cout<<"enter a string: "<<endl;
+    cin>>n;
+    // cout<<n<<endl;
+    int i = n.length();
+   for (int i = n.length()-1; i >= 0; i--)
+   {
+            k = k + n[i];
+   }
+    // cout<<k<<"";
+    if (n == k)
+    {
+        cout<<"it's palindrome: "<<endl;
+    }
+    else{
+        cout<<"it's not a palindrome: "<<endl;
+    }
+    // cout<<n[4]<<" ";
+    // cout<<i<<" ";
+    cout<<endl;
+}
+int main()
+{
+    int a;
+    cout << "Enter a test cases: " << endl;
+    cin >> a;
+    while (a > 0)
+    {
+        string n, k;
+        // int n, m;
+        // anagram(n, m);
+        // gcd(n, m);
+        palindromestring(n,k);
+        a--;
+    }
+    return 0;
+}
